@@ -177,14 +177,14 @@ Explaining zk-STARKS  [Part I](https://vitalik.ca/general/2017/11/09/starks_part
 
 
  [Aurora: Transparent Succinct Arguments for R1CS](https://eprint.iacr.org/2018/828.pdf)  By Eli Ben-Sasson, Alessandro Chiesa, Michael Riabzev, Nicholas Spooner, Madars Virza, Nicholas P. Ward ( [ipfs](https://gateway.ipfs.io/ipfs/QmYTBpVu156KNRWWb1ppMF8yJxMwNvRBVFJoqCDfvqSLKX) )
-* zk-STARK improvement where proof size is O(log2n), proof generation time is O(n log(n)), and verification time is O(n).
+* zk-STARK improvement where proof size is O(log2n), proof generation time is O(n log(n)), and verification time is O(n). [2018]
 
 
  [Zexe: Enabling Decentralized Private Computation](https://eprint.iacr.org/2018/962.pdf)  by Sean Bowe, Alessandro Chiesa, Matthew Green, Ian Miers, Pratyush Mishra, Howard Wu ( [ipfs](https://gateway.ipfs.io/ipfs/QmY4ss4XLbpa4Yfe7ffRoh4DV3n3JCVTPsRqSEhTT96DtL) )
 * A ledger-based system where users execute offline computations, and produce transactions that hide all information about the offline computations and can be validated by anyone in constant time. [2018]
 
 [Spartan: Efficient and general-purpose zkSNARKs without trusted setup](https://eprint.iacr.org/2019/550) by Srinath Setty ( [ipfs](https://gateway.ipfs.io/ipfs/QmWp8G6EjNbaP18jpnBnTd2Nvxa851UuXZ1gPuM5MG3FAq) )
-* The first zk-SNARK construction without a trusted setup (i.e. a “transparent” zk-SNARK) where verifying a proof incurs sub-linear costs without requiring data parallelism (or other homogeneity) in the structure of an arithmetic circuit for which a proof is produced. 
+* The first zk-SNARK construction without a trusted setup (i.e. a “transparent” zk-SNARK) where verifying a proof incurs sub-linear costs without requiring data parallelism (or other homogeneity) in the structure of an arithmetic circuit for which a proof is produced. [2019]
 
 ## Proofs of Space, Time & Replication
  [Proofs of Space](https://eprint.iacr.org/2017/893.pdf)  by Hamza Abusalah, Joel Alwen, Bram Cohen, Danylo Khilko, Krzysztof Pietrzak, Leonid Reyzin ( [ipfs](https://gateway.ipfs.io/ipfs/QmNxX8QutzqTgNhvaZ8pHFaeJVUbXKwMMAY2R5Ur9vBpdG) )
