@@ -442,6 +442,9 @@ Here are the links to all major types of  [state machines](https://ocw.mit.edu/c
  [Michelson: the Language of Smart Contracts in Tezos](https://tezos.gitlab.io/master/whitedoc/michelson.html)  ( [ipfs](https://gateway.ipfs.io/ipfs/QmNpvj4FwMgTU8UeoXKVDmthSDSBB5kA2J5zFY93c3YFcK) )
 * The complete instruction set, type system and semantics of a stack-based language for blockchains with high level data types and primitives and strict static type checking. [2018]
 
+[Telegram Open Network Virtual Machine](https://test.ton.org/tvm.pdf) by Nikolai Durov ( [ipfs](https://gateway.ipfs.io/ipfs/QmYYnMDbZYgGs6PiyoFCywW4j5cnmd3mwmSSuc9mSEfY9v) )
+* The Telegram Open Network Virtual Machine (TVM) executes smart-contract code in the TON Blockchain. It supports all operations required to parse incoming messages and persistent data, and to create new messages and modify persistent data. [2019]
+
 ## Layer 2 Scaling
  [Segregated Witness Proposal](https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki)  by Eric Lombrozo, Johnson Lau, Pieter Wuille ( [ipfs](https://gateway.ipfs.io/ipfs/QmZmGXDymFh4ASJF7WPdJu3mC1gm1AMJ8awAT5tZeakaML) )
 * Fixed the problem of transaction malleability in Bitcoin, which enabled the building of trustless, unconfirmed transaction dependency chains, and payment channels. [2015]
