@@ -467,7 +467,7 @@ Here are the links to all major types of  [consensus algorithms](https://medium.
 
 ## Scalability
 
-### Layer 2 Scaling
+### Layer 2
  [Segregated Witness Proposal](https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki)  by Eric Lombrozo, Johnson Lau, Pieter Wuille ( [ipfs](https://gateway.ipfs.io/ipfs/QmZmGXDymFh4ASJF7WPdJu3mC1gm1AMJ8awAT5tZeakaML) )
 * Fixed the problem of transaction malleability in Bitcoin, which enabled the building of trustless, unconfirmed transaction dependency chains, and payment channels. [2015]
 
