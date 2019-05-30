@@ -11,11 +11,10 @@ It aims to provide a comprehensive archive of technical concepts, case studies, 
 
 Thank you to our launch contributors that helped make this project possible!
 
- [Binance Research](https://research.binance.com/)
-
- [Messari](https://messari.io/)
-
- [Circle Research](https://research.circle.com/)
+* [Binance Research](https://research.binance.com/)
+* [Messari](https://messari.io/)
+* [Circle Research](https://research.circle.com/)
+* [ZK Capital](https://www.zk.capital/)
 
  If you'd like to join us in building this repo, please feel free to open pull requests and start contributing!
 
@@ -25,6 +24,7 @@ Thank you to our launch contributors that helped make this project possible!
 	* [Bitcoin’s Predecessors](#itcoins-predecessors)
 	* [Hashing Algorithms](#hashing-algorithms)
 	* [Zero-Knowledge Argument Systems](#zero-knowledge-argument-systems)
+	* [Privacy](#privacy)
 	* [Proofs of Space, Time & Replication](#proofs-of-space-time--replication)
 	* [Other](#other)
 
@@ -35,13 +35,15 @@ Thank you to our launch contributors that helped make this project possible!
 		* [Nakamoto Consensus](#nakamoto-consensus)
 		* [Permissioned Consensus](#permissioned-consensus) 
 		* [Leaderless Consensus](#leaderless-consensus) 
-	* [State Machines](#state-machines)
-	*  [Interpreters, Runtimes and Virtual Machines](#interpreters-runtimes-and-virtual-machines)
+		* [Finality Gadgets](#finality-gadgets)
+	*  [State Machines, Interpreters, Runtimes and Virtual Machines](#state-machines-interpreters-runtimes-and-virtual-machines)
 		* [Ethereum Virtual Machine (EVM)](#ethereum-virtual-machine-evm)
 		* [WebAssembly (WASM)](#webassembly-wasm) 
 		* [Other Virtual Machines](#other-virtual-machines)
-	* [Layer 2 Scaling](#layer-2-scaling) 
-	* [Sharding](#sharding)
+	* [Scalability](#scalability)
+		* [Layer 2](#layer-2) 
+		* [Sharding](#sharding)
+		* [Interoperability](#interoperability)
 	* [Trusted Execution Environments](#trusted-execution-environments)
 	* [Peer-to-Peer Communications](#peer-to-peer-communications)
 
@@ -183,8 +185,22 @@ Explaining zk-STARKS  [Part I](https://vitalik.ca/general/2017/11/09/starks_part
  [Zexe: Enabling Decentralized Private Computation](https://eprint.iacr.org/2018/962.pdf)  by Sean Bowe, Alessandro Chiesa, Matthew Green, Ian Miers, Pratyush Mishra, Howard Wu ( [ipfs](https://gateway.ipfs.io/ipfs/QmY4ss4XLbpa4Yfe7ffRoh4DV3n3JCVTPsRqSEhTT96DtL) )
 * A ledger-based system where users execute offline computations, and produce transactions that hide all information about the offline computations and can be validated by anyone in constant time. [2018]
 
+
 [Spartan: Efficient and general-purpose zkSNARKs without trusted setup](https://eprint.iacr.org/2019/550) by Srinath Setty ( [ipfs](https://gateway.ipfs.io/ipfs/QmWp8G6EjNbaP18jpnBnTd2Nvxa851UuXZ1gPuM5MG3FAq) )
 * The first zk-SNARK construction without a trusted setup (i.e. a “transparent” zk-SNARK) where verifying a proof incurs sub-linear costs without requiring data parallelism (or other homogeneity) in the structure of an arithmetic circuit for which a proof is produced. [2019]
+
+
+[Zero-Knowledge Proof-of-Identity](https://eprint.iacr.org/2019/546.pdf) by David Cerezo Sanchez ( [ipfs](https://gateway.ipfs.io/ipfs/QmX53D3RqRbmNoqKU9xvknHj7ujwWkqj1Bct2mG4xnCkYG) )
+* Removing the inefficiencies of Sybil-resistant mechanisms such as PoW and PoS, limiting the number of mining nodes a single individual would be able to run while keeping membership open to everyone, circumventing the impossibility of full decentralization and the blockchain scalability trilemma when instantiated on a blockchain with a consensus protocol based on the cryptographic random selection of nodes. [2019]
+
+## Privacy
+
+[RingCT 3.0 for Blockchain Conﬁdential Transaction: Shorter Size and Stronger Security](https://eprint.iacr.org/2019/508) by Tsz Hon Yuen, Shi-feng Sun, Joseph K. Liu, Man Ho Au, Muhammed F. Esgin, Qingzhao Zhang, and Dawu Gu ( [ipfs](https://gateway.ipfs.io/ipfs/QmS39PCEL4mmaNZhypa3uejKDjDR93ijFzgBgVisELZ8sU) )
+* The RingCT3.0 protocol is 97% less than the ring signature size of the original RingCT1.0 protocol used in Monero, outperforming existing solutions in terms of efficiency and security. [2019]
+
+
+[Revisiting Privacy-aware Blockchain Public Key Infrastructure](https://eprint.iacr.org/2019/527.pdf) by Olamide Omolola and Paul Plessing ( [ipfs](https://gateway.ipfs.io/ipfs/QmdgsUiaxWwDAQbtmPaWkKG9Yazomk6Y1yXLiBS7KonHKD) )
+* This work proposes the use of ring signatures to solve the problem of authenticating registered members of the blockchain during key update to ensure that only registered members can perform key updates and presents a revocation mechanism that involves key deletion from the blockchain for PB-PKI. [2019]
 
 ## Proofs of Space, Time & Replication
  [Proofs of Space](https://eprint.iacr.org/2017/893.pdf)  by Hamza Abusalah, Joel Alwen, Bram Cohen, Danylo Khilko, Krzysztof Pietrzak, Leonid Reyzin ( [ipfs](https://gateway.ipfs.io/ipfs/QmNxX8QutzqTgNhvaZ8pHFaeJVUbXKwMMAY2R5Ur9vBpdG) )
@@ -383,8 +399,12 @@ Here are the links to all major types of  [consensus algorithms](https://medium.
  [CBC Casper](https://github.com/cbc-casper/cbc-casper-paper/blob/master/cbc-casper-paper-draft.pdf)  by Vlad Zamfir, Nate Rush, Aditya Asgaonkar, Georgia Piliouras ( [ipfs](https://gateway.ipfs.io/ipfs/QmVyjCpoW3gTxhJmRUMuwgn7ZVBecHFawdgYVZas3XwCki) )
 * Describes a family of consensus protocols that are asynchronously safe and BFT. [2018]
 
-## State Machines
-Here are the links to all major types of  [state machines](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/unit-1-software-engineering/state-machines/MIT6_01SCS11_chap04.pdf) :
+### Finality Gadgets
+
+[Afgjort](https://eprint.iacr.org/2019/504.pdf) by  Bernardo Magri, Christian Matt, Jesper Buus Nielsen, and Daniel Tschudi ( [ipfs](http://gateway.ipfs.io/ipfs/QmeDttvsnsQRYNC4SXfqjxHuhca1Ma7V5dfLUrwA9HLziz) )
+* This work proposes two variants of a finality layer protocol, proving both of them secure in the setting with t < n/3 Byzantine parties and a semi-synchronous network. [2019]
+
+## State Machines, Interpreters, Runtimes and Virtual Machines
 
  [Blockchain as a State Machine](https://www.researchgate.net/profile/Jamsheed_Shorish/publication/322655559_Blockchain_State_Machine_Representation/links/5a66f262a6fdccb61c5b578b/Blockchain-State-Machine-Representation.pdf?origin=publication_detail)  by Jamsheed Shorish ( [ipfs](http://gateway.ipfs.io/ipfs/QmbULkziYYZxc4yy7kUPrUr8i7F2YD6vJPgQgYLujnCbQo) )
 * Defines a blockchain as a hierarchy of state machines. [2017]
@@ -393,8 +413,8 @@ Here are the links to all major types of  [state machines](https://ocw.mit.edu/c
  [Ethereum as a State Machine](https://arxiv.org/pdf/1711.09327.pdf)  by Anastasia Mavridou, Aron Laszka ( [ipfs](https://gateway.ipfs.io/ipfs/QmSC1Srr3aa5eFxQfrPPxCW5FNMDzR2ypN6LXV7TmvqLDG) )
 * Introduces a Finite State Machine Based Approach to writing smart contracts. [2017]
 
-## Interpreters, Runtimes and Virtual Machines
- [Bitcoin Script](https://en.bitcoin.it/wiki/Script)  ( [ipfs](https://gateway.ipfs.io/ipfs/QmUiHTapHiJASXCPW3jw8raBmpBZpLAdjL2dBEtwpNzAQN) )
+
+[Bitcoin Script](https://en.bitcoin.it/wiki/Script)  ( [ipfs](https://gateway.ipfs.io/ipfs/QmUiHTapHiJASXCPW3jw8raBmpBZpLAdjL2dBEtwpNzAQN) )
 * Describes Bitcoin’s scripting system for transactions, including all active and disabled opcodes. [2017]
 
 ### Ethereum Virtual Machine (EVM)
@@ -445,7 +465,9 @@ Here are the links to all major types of  [state machines](https://ocw.mit.edu/c
 [Telegram Open Network Virtual Machine](https://test.ton.org/tvm.pdf) by Nikolai Durov ( [ipfs](https://gateway.ipfs.io/ipfs/QmYYnMDbZYgGs6PiyoFCywW4j5cnmd3mwmSSuc9mSEfY9v) )
 * The Telegram Open Network Virtual Machine (TVM) executes smart-contract code in the TON Blockchain. It supports all operations required to parse incoming messages and persistent data, and to create new messages and modify persistent data. [2019]
 
-## Layer 2 Scaling
+## Scalability
+
+### Layer 2 Scaling
  [Segregated Witness Proposal](https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki)  by Eric Lombrozo, Johnson Lau, Pieter Wuille ( [ipfs](https://gateway.ipfs.io/ipfs/QmZmGXDymFh4ASJF7WPdJu3mC1gm1AMJ8awAT5tZeakaML) )
 * Fixed the problem of transaction malleability in Bitcoin, which enabled the building of trustless, unconfirmed transaction dependency chains, and payment channels. [2015]
 
@@ -505,8 +527,8 @@ Here are the links to all major types of  [state machines](https://ocw.mit.edu/c
 [SoK: Off The Chain Transactions](https://eprint.iacr.org/2019/360.pdf) by Arthur Gervais, Lewis Gudgeon, Patrick McCorry, Pedro Moreno-Sanchez, Stefanie Roos ( [ipfs](https://gateway.ipfs.io/ipfs/QmchSu4PNKwDsjXmraqeXFDamHHNyG4q5uYZBi6CDGBLuP) )
 * A Systemization of Knowledge that structures the complete body of research on layer-two transactions. [2019]
 
+### Sharding
 
-## Sharding
  [Minimal VDF Randomness Beacon](https://ethresear.ch/t/minimal-vdf-randomness-beacon/3566)  by Justin Drake ( [ipfs](https://gateway.ipfs.io/ipfs/QmUR7RRTfzbxBg2v7wnry39Z7jRmrkJMDV9dN5fGptfeZo) )
 * A discussion around using a Verifiable Delay Function (VDF) as a randomness beacon. [2018]
 
@@ -521,6 +543,15 @@ Here are the links to all major types of  [state machines](https://ocw.mit.edu/c
 
  [Detailed Overview of Ethereum 2.0 Shard Chains](https://medium.com/nearprotocol/detailed-overview-of-ethereum-2-0-shard-chains-committees-proposers-and-attesters-a9992d2fd103)  by Alexander Skidanov ( [ipfs](https://gateway.ipfs.io/ipfs/Qmdb27ecdomzPDAENq1VqvmJpx1v6ppLgBxWTpeLHThd54) )
 * An outside analysis of the Ethereum 2.0 specification as a whole. [2018]
+
+### Interoperability
+
+[DeXTT: Deterministic Cross-Blockchain Token Transfers](https://arxiv.org/pdf/1905.06204.pdf) by Michael Borkowski, Marten Sigwart, Philipp Frauenthaler, Taneli Hukkinen, and Stefan Schulte ( [ipfs](https://gateway.ipfs.io/ipfs/QmV8HtbE7WiBBMCuKeows4E8cYu9SpKp7RqLYE5yD3uMK6) )
+* A formal definition of a protocol which implements eventual consistency for cross-blockchain token transfers with a reference implementation in Solidity. [2019]
+
+
+[A Framework for Blockchain Interoperability and Runtime Selection](https://arxiv.org/abs/1905.07014) by Philipp Frauenthaler, Michael Borkowski, and Stefan Schulte ( [ipfs](https://gateway.ipfs.io/ipfs/QmW1rxrPTP4CY1PDUrsXbzyTUFTy1pR1LCvJJojeQeBMyw) )
+* A framework that monitors several blockchains, allows the user to define functional and non-functional requirements, determines the most appropriate blockchain, and enables the switchover to that chain at runtime. [2019]
 
 ## Trusted Execution Environments
  [SGX Review](https://www.blackhat.com/docs/us-16/materials/us-16-Aumasson-SGX-Secure-Enclaves-In-Practice-Security-And-Crypto-Review-wp.pdf)  by JP Aumasson, Luis Merino ( [ipfs](https://gateway.ipfs.io/ipfs/QmQ7EEG6huSi568QrNQrJ7q9TNUDPh2Lq4BqAMsDVoTTbJ) )
@@ -653,6 +684,10 @@ Here are the links to all major concepts in  [tokenomics](https://medium.com/@wm
 
  [Bitcoin Market-Value-to-Realized-Value (MVRV) Ratio](https://blog.goodaudience.com/bitcoin-market-value-to-realized-value-mvrv-ratio-3ebc914dbaee)  by Murad Mahmudov, David Puell ( [ipfs](https://gateway.ipfs.io/ipfs/QmPmoBm3Sez4t2fCVmH4JVtqGw4gdeEesVpEbyaGLZzF3C) )
 * Proposes an update to the NVT Ratio as a more effective metric for valuing cryptocurrencies. [2018]
+
+
+[A Deep Dive into Bitcoin Mining Pools: An Empirical Analysis of Mining Shares](https://arxiv.org/abs/1905.05999) by Matteo Romiti, Aljosha Judmayer, Alexei Zamyatin, and Bernhard Haslhofer ( [ipfs](https://gateway.ipfs.io/ipfs/QmWiUMdXAppgNKEM8ptWPown4EZiFwLDtbzbbV6ZbQsU7J) )
+* This work shows that individual miners are simultaneously operating across three Bitcoin pools and that in each analyzed pool a small number of actors (≤ 20) receives over 50% of all BTC payouts. [2019]
 
 ## Governance
  [Governance and Network Effects](https://blog.aragon.org/thoughts-on-governance-and-network-effects-f40fda3e3f98/)  by Luke Duncan and Aragon ( [ipfs](https://gateway.ipfs.io/ipfs/QmZQ3CFETMGsvjqR3jz6mNo6VKofoSZXDN1mGHcmbzUcyY) )
@@ -807,6 +842,22 @@ Nothing at Stake  [Part 1](https://medium.com/coinmonks/understanding-proof-of-s
 
  [Low-Resource Eclipse Attacks on Ethereum’s Peer-to-Peer Network](https://eprint.iacr.org/2018/236.pdf)  by Yuval Marcus, Ethan Heilman, Sharon Goldberg ( [ipfs](https://gateway.ipfs.io/ipfs/QmWJxtwYMnrHVBC6H2eFjKkkPUXsVVJvQddgwqpKi2hwm3) )
 * Analyzes an attack in which a full node is isolated from the rest of the network. [2018]
+
+
+[Detective Mining: Selfish Mining Becomes Unrealistic under Mining Pool Environment](https://eprint.iacr.org/2019/486.pdf) by Suhyeon Lee and Seungjoo Kim ( [ipfs](https://gateway.ipfs.io/ipfs/QmRta3EJRqwS6YwDdWnRzXstzamgYuVa8QqJia1iuJb67D) )
+* This work presents a fundamental problem regarding the selfish mining strategy under the existence of mining pools and proposes a new attack strategy, showing that selfish mining pool may not profitable. [2019]
+
+
+[A Smart Contract Refereed Data Retrieval Protocol with a Provably Low Collateral Requirement](https://eprint.iacr.org/2019/541) by James M. Shook, Scott Simon and Peter Mell ( [ipfs](https://gateway.ipfs.io/ipfs/QmPykehBhuTzXY3pDinU7NLRM7SM1AjM1hkVdw1Mrdip9W) )
+* A new data retrieval protocol with a collateral mechanism calibrated to disincentivizes cheating and Distributed Denial of Service (DDoS) attacks at every stage, but that is at a fraction of the cost of storing the data. [2019]
+
+
+[An Empirical Evaluation of Selfish Mining and Strategic Mining in Proof-of-Work Blockchain with Multiple Miners](https://arxiv.org/pdf/1905.06853.pdf) by Tin Leelavimolsilp, Long Tran-Thanh, Sebastian Stein, and Viet Hung Nguyen ( [ipfs](https://gateway.ipfs.io/ipfs/QmPgUe8MRnCSu9Gmq6cswjRWsYEBkxemhCCbi41JfYzprM) )
+* An empirical investigation on selfish mining strategy in the context of multiple miners. [2019]
+
+
+[Blockchain Mining Games with Pay Forward](https://arxiv.org/pdf/1905.07397.pdf) by Elias Koutsoupias, Philip Lazos, Paolo Serafino, and Foluso Ogunlana ( [ipfs](https://gateway.ipfs.io/ipfs/QmYiS3tR6XMTYsRn8dcVndQtKQ9vmXwHPpsYJxnSy4HmHM) )
+* Miners have the ability to pay forward an amount to be collected by the first miner who successfully extends their branch, giving them the power to influence the incentives for mining. This work formulates a stochastic game for the study of such incentives and shows that smaller miners can guarantee that the best response of even substantially more powerful miners is to follow the expected behavior intended by the protocol designer. [2019]
 
 ## Protocol Failures and Issues
 BTC: March 2013 Chain Fork  [Post-Mortem](https://github.com/bitcoin/bips/blob/master/bip-0050.mediawiki)  and  [Explainer](https://bitcoinmagazine.com/articles/bitcoin-network-shaken-by-blockchain-fork-1363144448/)  by Gavin Andersen and Vitalik Buterin, respectively ( [ipfs1](https://gateway.ipfs.io/ipfs/QmanbTWX4oiMuo4uqWmC4zBYHrnruGMqgH4scWe7gRx6oi) ,  [ipfs2](https://gateway.ipfs.io/ipfs/QmdyiH1wskrasPSMfMWpaMPrDMCh7Noz9FtXohL8qmhxCv) )
