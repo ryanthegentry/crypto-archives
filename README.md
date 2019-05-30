@@ -610,8 +610,8 @@ Here are the links to all major types of  [consensus algorithms](https://medium.
 * Describes a p2p protocol for Tezos nodes to communicate with each other. [2018]
 
 
-[Bandwidth-Efficient Transaction Relay in Bitcoin](https://arxiv.org/pdf/1905.10518.pdf)
-* A new transaction dissemination protocol that not only reduces the bandwidth consumption by 40% assuming current connectivity, but also keeps the bandwidth use almost constant as the connectivity increases.
+[Bandwidth-Efficient Transaction Relay in Bitcoin](https://arxiv.org/pdf/1905.10518.pdf) by Gleb Naumenko, Gregory Maxwell, Pieter Wuille, Sasha Fedorova, and Ivan Beschastnikh ( [ipfs](https://gateway.ipfs.io/ipfs/QmRXYRbWR9GK3Cn1mMCPGMsNThUpQuxfZ2HTngHbWCimeD) )
+* A new transaction dissemination protocol that not only reduces the bandwidth consumption by 40% assuming current connectivity, but also keeps the bandwidth use almost constant as the connectivity increases. [2019]
 
 # 🏦 Cryptoeconomics
 Here are the links to all major concepts in  [cryptoeconomics](https://thecontrol.co/cryptoeconomics-101-e5c883e9a8ff) :
