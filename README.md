@@ -330,7 +330,7 @@ Here are the links to all major types of  [consensus algorithms](https://medium.
 * Describes a new consensus algorithm using a fork-choice rule. [2008]
 
 
- [Bitcoin-NG](https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-eyal.pdf)  by Ittay Eyal, Adem Efe Gencer, Emin Gün Sirer, Robbert van Renesse ( [ipfs](https://gateway.ipfs.io/ipfs/QmNwwPWSiB65ATny51GaC6KN2MywS92WSNs9g7fkN5Ve9z) )
+ [Bitcoin-NG](https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-eyal.pdf)  by Ittay Eyal, Adem Efe Gencer, Emin Gün Sirer, Robbert van Renesse ( [ipfs](https://gateway.ipfs.io/ipfs/QmNwwPWSiB65ATny51GaC6KN2MywS92WSNs9g7fkN5Ve9z) )
 * Extends the algorithm by allowing leaders to produce microblocks. [2016]
 
 
@@ -609,6 +609,10 @@ Here are the links to all major types of  [consensus algorithms](https://medium.
  [Tezos p2p](https://tezos.gitlab.io/master/whitedoc/p2p.html)  ( [ipfs](https://gateway.ipfs.io/ipfs/QmNzrj2PQoUDMt3EuCsbxERRf5Sus8BQBP4VePNshPH4U7) )
 * Describes a p2p protocol for Tezos nodes to communicate with each other. [2018]
 
+
+[Bandwidth-Efficient Transaction Relay in Bitcoin](https://arxiv.org/pdf/1905.10518.pdf)
+* A new transaction dissemination protocol that not only reduces the bandwidth consumption by 40% assuming current connectivity, but also keeps the bandwidth use almost constant as the connectivity increases.
+
 # 🏦 Cryptoeconomics
 Here are the links to all major concepts in  [cryptoeconomics](https://thecontrol.co/cryptoeconomics-101-e5c883e9a8ff) :
 
@@ -744,7 +748,7 @@ Here are the links to all major concepts in  [tokenomics](https://medium.com/@wm
 * Describes an attack where a miner refuses to mine on any chain that includes a transaction it doesn’t like in the most recent several blocks. [2013]
 
 
- [Majority is not Enough: Bitcoin Mining is Vulnerable (e.g. Selfish Mining)](https://www.cs.cornell.edu/~ie53/publications/btcProcFC.pdf)  by Ittay Eyal, Emin Gün Sirer ( [ipfs](https://gateway.ipfs.io/ipfs/QmNukb1L8BhEsiCbrmnkEJWAvUjhBHidinKMZKfCaLG6ep) )
+ [Majority is not Enough: Bitcoin Mining is Vulnerable (e.g. Selfish Mining)](https://www.cs.cornell.edu/~ie53/publications/btcProcFC.pdf)  by Ittay Eyal, Emin Gün Sirer ( [ipfs](https://gateway.ipfs.io/ipfs/QmNukb1L8BhEsiCbrmnkEJWAvUjhBHidinKMZKfCaLG6ep) )
 * Proposes a modification to the Bitcoin protocol that prohibits selfish mining by pools that command less than 1/4 of the resources. [2013]
 
 
@@ -888,7 +892,7 @@ Bitcoin Cash SIGHASH_BUG  [Incident Report](https://www.bitcoinabc.org/2018-05-0
 * Describes an attack on a pseudo-random number generator used in a smart contract deployed on the Ethereum mainnet. [2015]
 
 
-The DAO:  [pre-hack](http://hackingdistributed.com/2016/06/13/the-dao-can-turn-into-a-naturally-arising-ponzi/) ,  [post-hack analysis](http://hackingdistributed.com/2016/06/18/analysis-of-the-dao-exploit/) , and  [thoughts](http://hackingdistributed.com/2016/06/17/thoughts-on-the-dao-hack/)  by Emin Gün Sirer, Phil Daian, and Emin Gün Sirer, respectively ( [ipfs1](https://gateway.ipfs.io/ipfs/QmNsCsxqeLJRAPF6oAPDaMaLWm7TGNkCr5SE6XdiZM1ND2) ,  [ipfs2](https://gateway.ipfs.io/ipfs/QmWUTGJmGGCQE83kvf5UWFLZsicMExk8gLSy6K9Xn3aDpo) ,  [ipfs3](https://gateway.ipfs.io/ipfs/Qme8xYpMJ1ftuj5ZxeVQ9BpihHSta5w4ZhUDjqoSNSfsce) )
+The DAO:  [pre-hack](http://hackingdistributed.com/2016/06/13/the-dao-can-turn-into-a-naturally-arising-ponzi/) ,  [post-hack analysis](http://hackingdistributed.com/2016/06/18/analysis-of-the-dao-exploit/) , and  [thoughts](http://hackingdistributed.com/2016/06/17/thoughts-on-the-dao-hack/)  by Emin Gün Sirer, Phil Daian, and Emin Gün Sirer, respectively ( [ipfs1](https://gateway.ipfs.io/ipfs/QmNsCsxqeLJRAPF6oAPDaMaLWm7TGNkCr5SE6XdiZM1ND2) ,  [ipfs2](https://gateway.ipfs.io/ipfs/QmWUTGJmGGCQE83kvf5UWFLZsicMExk8gLSy6K9Xn3aDpo) ,  [ipfs3](https://gateway.ipfs.io/ipfs/Qme8xYpMJ1ftuj5ZxeVQ9BpihHSta5w4ZhUDjqoSNSfsce) )
 * Explains how the DAO smart contracts were vulnerable to attack, how those vulnerabilities were exploited by an attacker, and what that meant for smart contracts on Ethereum. [2016]
 
 
