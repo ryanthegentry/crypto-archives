@@ -133,6 +133,10 @@ Here are the links to all major types of  [hashing algorithms](https://blockgeek
  [Pederson Hash Function](https://github.com/zcash/zcash/issues/2234#issuecomment-383736266)  by Daira Hopwood ( [ipfs](https://gateway.ipfs.io/ipfs/QmeedxSgPfDquov4KPBPYLMVX5JEKRY2FCHkZ86oN6Fo6Q) )
 * Used in Zcash’s Sapling SNARK construction, reduces to discrete log. [2017]
 
+
+ [Cuckoo Cycle](https://github.com/tromp/cuckoo) by John Tromp ( ipfs )
+* Cuckoo Cycle is the first graph-theoretic proof-of-work, and the most memory bound. [2014]
+
 ## Zero-Knowledge Argument Systems
  [The Knowledge Complexity of Interactive Proof Systems](http://people.csail.mit.edu/silvio/Selected%20Scientific%20Papers/Proof%20Systems/The_Knowledge_Complexity_Of_Interactive_Proof_Systems.pdf)  by Shafi Goldwasser, Silvio Micali, Charles Rackoff ( [ipfs](https://gateway.ipfs.io/ipfs/QmZhkjD6VfcoQmQcqzTnEYWwRRTWWNT5w7RdEnWZ9nwa41) )
 * Introduced the IP hierarchy of interactive proof systems and gave the first zero-knowledge proof for a concrete problem. [1985]
