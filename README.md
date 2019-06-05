@@ -190,12 +190,24 @@ Explaining zk-STARKS  [Part I](https://vitalik.ca/general/2017/11/09/starks_part
 * A ledger-based system where users execute offline computations, and produce transactions that hide all information about the offline computations and can be validated by anyone in constant time. [2018]
 
 
+[Sonic: Zero-Knowledge SNARKs from Linear-Size Universal and Updateable Structured Reference Strings](https://eprint.iacr.org/2019/099.pdf) by Mary Maller, Sean Bowe, Markulf Kohlweiss, and Sarah Meiklejohn
+* A new zk-SNARK for general arithmetic circuit satisfiability that requires a trusted setup. However, unlike conventional SNARKs the structured reference string supports all circuits (up to a given size bound) and is also updatable, so that it can be continually strengthened. [2019]
+
+
 [Spartan: Efficient and general-purpose zkSNARKs without trusted setup](https://eprint.iacr.org/2019/550) by Srinath Setty ( [ipfs](https://gateway.ipfs.io/ipfs/QmWp8G6EjNbaP18jpnBnTd2Nvxa851UuXZ1gPuM5MG3FAq) )
 * The first zk-SNARK construction without a trusted setup (i.e. a “transparent” zk-SNARK) where verifying a proof incurs sub-linear costs without requiring data parallelism (or other homogeneity) in the structure of an arithmetic circuit for which a proof is produced. [2019]
 
 
 [Zero-Knowledge Proof-of-Identity](https://eprint.iacr.org/2019/546.pdf) by David Cerezo Sanchez ( [ipfs](https://gateway.ipfs.io/ipfs/QmX53D3RqRbmNoqKU9xvknHj7ujwWkqj1Bct2mG4xnCkYG) )
 * Removing the inefficiencies of Sybil-resistant mechanisms such as PoW and PoS, limiting the number of mining nodes a single individual would be able to run while keeping membership open to everyone, circumventing the impossibility of full decentralization and the blockchain scalability trilemma when instantiated on a blockchain with a consensus protocol based on the cryptographic random selection of nodes. [2019]
+
+
+[Libra: Succinct Zero-Knowledge Proofs with Optimal Prover Computation](https://eprint.iacr.org/2019/317.pdf) by Tiancheng Xie, Jiaheng Zhang, Yupeng Zhang, Charalampos Papamanthou, and Dawn Song
+* A zero-knowledge proof system where if C is the size of the circuit being proved (i) the prover time is O(C) irrespective of the circuit type; (ii) the proof size and verification time are both O(d log C) for d-depth log-space uniform circuits. It requires a one-time trusted setup that depends only on the size of the input to the circuit and not on the circuit logic. [2019]
+
+
+[AuroraLight: Improved prover efficiency and SRS size in a Sonic-like](https://eprint.iacr.org/2019/601.pdf) by Ariel Gabizon
+* Using ideas from Aurora, AuroraLight is presented, a zk-SNARK that achieves both universal (a single setup to support all circuits of some bounded size) and updatable (an open set of participants can contribute secret randomness to it indefinitely) in a way similar to that in Sonic. [2019]
 
 ## Privacy
 
