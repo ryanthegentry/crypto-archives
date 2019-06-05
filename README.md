@@ -134,7 +134,7 @@ Here are the links to all major types of  [hashing algorithms](https://blockgeek
 * Used in Zcash’s Sapling SNARK construction, reduces to discrete log. [2017]
 
 
- [Cuckoo Cycle](https://github.com/tromp/cuckoo) by John Tromp (ipfs)
+ [Cuckoo Cycle](https://github.com/tromp/cuckoo) by John Tromp ( ipfs )
 * Cuckoo Cycle is the first graph-theoretic proof-of-work, and the most memory bound. [2014]
 
 ## Zero-Knowledge Argument Systems
