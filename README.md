@@ -122,6 +122,10 @@ Here are the links to all major types of  [hashing algorithms](https://blockgeek
 * A combination of the Dagger and Hashimoto algorithms used in Ethereum 1.0. [2014]
 
 
+[Cuckoo Cycle](https://github.com/tromp/cuckoo) by John Tromp ( [ipfs](https://gateway.ipfs.io/ipfs/QmbqbgLACTg6628d9KywC8UiUv1dMmGuiPYghrqdgHAi9E) )
+* Cuckoo Cycle is the first graph-theoretic proof-of-work, and the most memory bound. [2014]
+
+
  [X11](https://docs.dash.org/en/latest/introduction/features.html#x11-hash-algorithm)  by strophy, thephez, Dimitris Apostolou (ipfs)
 * Uses multiple rounds of 11 different hashes (Blake, bmw, groestl, jh, keccak, skein, luffa, cubehash, shavite, simd, echo). [2015]
 
@@ -133,9 +137,6 @@ Here are the links to all major types of  [hashing algorithms](https://blockgeek
  [Pederson Hash Function](https://github.com/zcash/zcash/issues/2234#issuecomment-383736266)  by Daira Hopwood ( [ipfs](https://gateway.ipfs.io/ipfs/QmeedxSgPfDquov4KPBPYLMVX5JEKRY2FCHkZ86oN6Fo6Q) )
 * Used in Zcash’s Sapling SNARK construction, reduces to discrete log. [2017]
 
-
- [Cuckoo Cycle](https://github.com/tromp/cuckoo) by John Tromp ( ipfs )
-* Cuckoo Cycle is the first graph-theoretic proof-of-work, and the most memory bound. [2014]
 
 ## Zero-Knowledge Argument Systems
  [The Knowledge Complexity of Interactive Proof Systems](http://people.csail.mit.edu/silvio/Selected%20Scientific%20Papers/Proof%20Systems/The_Knowledge_Complexity_Of_Interactive_Proof_Systems.pdf)  by Shafi Goldwasser, Silvio Micali, Charles Rackoff ( [ipfs](https://gateway.ipfs.io/ipfs/QmZhkjD6VfcoQmQcqzTnEYWwRRTWWNT5w7RdEnWZ9nwa41) )
@@ -542,6 +543,10 @@ Here are the links to all major types of  [consensus algorithms](https://medium.
 
 [SoK: Off The Chain Transactions](https://eprint.iacr.org/2019/360.pdf) by Arthur Gervais, Lewis Gudgeon, Patrick McCorry, Pedro Moreno-Sanchez, Stefanie Roos ( [ipfs](https://gateway.ipfs.io/ipfs/QmchSu4PNKwDsjXmraqeXFDamHHNyG4q5uYZBi6CDGBLuP) )
 * A Systemization of Knowledge that structures the complete body of research on layer-two transactions. [2019]
+
+
+[DLSAG: Non-Interactive Refund Transactions for Interoperable Payment Channels in Monero](https://eprint.iacr.org/2019/595.pdf) by Pedro Moreno-Sanchez, Sarang Noether, RandomRun, Brandon Goodell, Duc V. Le, Aniket Kate ([ipfs](https://gateway.ipfs.io/ipfs/QmcakJ9XGXkoP6dMVfvWggLZQJn5VWuetwCrrnksvovQZA) )
+* A new linkable ring signature scheme that enables atomic swaps, payment channels, and off-chain multi-hop payments in the Monero cryptocurrency. [2019]
 
 ### Sharding
 
