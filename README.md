@@ -247,6 +247,10 @@ Explaining zk-STARKS  [Part I](https://vitalik.ca/general/2017/11/09/starks_part
  [Minimal VDF Randomness Beacon](https://ethresear.ch/t/minimal-vdf-randomness-beacon/3566)  by Justin Drake ( [ipfs](https://gateway.ipfs.io/ipfs/QmXfjyxboD58cN3C6y1hMG2FYtL3kk92XSvEAYtSFnGG5d) )
 * A proposal to use a VDF on Ethereum 2.0 as a source of randomness. [2018]
 
+
+[The Chia Network Blockchain](https://www.chia.net/assets/ChiaGreenPaper.pdf) by Bram Cohen and Krzysztof Pietrzak ( [ipfs](https://gateway.ipfs.io/ipfs/QmV1HwvgA7txGB26WRQG62iqAkVxtoVkomrAepKCNRSQCP) )
+* Provides an initial security analysis of Chia's alternating proofs of space and verifiable delay functions: as long as at least ~61.5% of the space is controlled by honest parties, Chia satisfies basic blockchain security properties. [2019]
+
 ## Other
 Merkle Tree:  [Patent](http://pdfpiw.uspto.gov/.piw?Docid=04309569&PageNum=0)  and  [Paper](https://link.springer.com/content/pdf/10.1007%2F3-540-48184-2_32.pdf)  and  [in Ethereum](https://blog.ethereum.org/2015/11/15/merkling-in-ethereum/)  by Ralph C. Merkle and Vitalik Buterin, respectively ( [ipfs1](https://gateway.ipfs.io/ipfs/QmSxtmZKzpombtWiW3irtj9SoHWBfWpbg4WmGUjQxAX8xN) ,  [ipfs2](https://gateway.ipfs.io/ipfs/QmVrpyKJcj1SL7Dxe1mprjx4KuVsPGhR6paFTvW5KbXHx8) ,  [ipfs3](https://gateway.ipfs.io/ipfs/Qmbztf7iYjAU8Bw1HQUw18g3wT3uCFotsGU7AnsYh1cC9d) )
 * A fundamental data structure that allows for authenticating a small amount of data, like a hash, to be extended to also authenticate large databases of potentially unbounded size. (1982, 1988, 2015)
@@ -547,6 +551,10 @@ Here are the links to all major types of  [consensus algorithms](https://medium.
 
 [DLSAG: Non-Interactive Refund Transactions for Interoperable Payment Channels in Monero](https://eprint.iacr.org/2019/595.pdf) by Pedro Moreno-Sanchez, Sarang Noether, RandomRun, Brandon Goodell, Duc V. Le, Aniket Kate ([ipfs](https://gateway.ipfs.io/ipfs/QmcakJ9XGXkoP6dMVfvWggLZQJn5VWuetwCrrnksvovQZA) )
 * A new linkable ring signature scheme that enables atomic swaps, payment channels, and off-chain multi-hop payments in the Monero cryptocurrency. [2019]
+
+
+[A Composable Security Treatment of the Lightning Network](https://eprint.iacr.org/2019/778.pdf) by Aggelos Kiayias and Orfeas Stefanos Thyfronitis Litos ( [ipfs](https://gateway.ipfs.io/ipfs/QmbR6ooUec3vQDdm9mCfoRj2sc9dj8gurd2eXWKwxW92iM) )
+* A full formalization and security analysis of the Lightning Network that highlights its dependency on basic cryptographic primitives like digital signatures, pseudorandom functions, identity-based signatures and a combined digital signature. [2019]
 
 ### Sharding
 
