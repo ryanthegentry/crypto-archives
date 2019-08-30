@@ -210,6 +210,10 @@ Explaining zk-STARKS  [Part I](https://vitalik.ca/general/2017/11/09/starks_part
 [AuroraLight: Improved prover efficiency and SRS size in a Sonic-like](https://eprint.iacr.org/2019/601.pdf) by Ariel Gabizon
 * Using ideas from Aurora, AuroraLight is presented, a zk-SNARK that achieves both universal (a single setup to support all circuits of some bounded size) and updatable (an open set of participants can contribute secret randomness to it indefinitely) in a way similar to that in Sonic. [2019]
 
+
+[PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive Arguments of Knowledge](https://eprint.iacr.org/2019/953.pdf) by Ariel Gabizon, Zachary J. Williamson, and Oana Ciobotaru ( [ipfs](https://gateway.ipfs.io/ipfs/QmRwNMgMkeAoMWAUipajunL55Vjz5mmQafcchFinSoi2oP) )
+* A universal SNARK construction with fully succinct verification, and significantly lower prover running time. [2019]
+
 ## Privacy
 
 [RingCT 3.0 for Blockchain Conﬁdential Transaction: Shorter Size and Stronger Security](https://eprint.iacr.org/2019/508) by Tsz Hon Yuen, Shi-feng Sun, Joseph K. Liu, Man Ho Au, Muhammed F. Esgin, Qingzhao Zhang, and Dawu Gu ( [ipfs](https://gateway.ipfs.io/ipfs/QmS39PCEL4mmaNZhypa3uejKDjDR93ijFzgBgVisELZ8sU) )
@@ -298,6 +302,10 @@ Merkle Tree:  [Patent](http://pdfpiw.uspto.gov/.piw?Docid=04309569&PageNum=0)  a
 
  [Parity Substrate](https://medium.com/paritytech/substrate-in-a-nutshell-a54cd34c7863)  by Dmitriy Kashitsyn ( [ipfs](https://gateway.ipfs.io/ipfs/QmUJb6GcW8damCJ8T1fZzrJsjHvhsHy8nt8mnoViAWTT24) )
 * Describing a library designed to help users build their own blockchain. [2018]
+
+
+[ETHDKG: Distributed Key Generation with Ethereum Smart Contracts](https://eprint.iacr.org/2019/985.pdf) by Philipp Schindler, Aljosha Judmayer, Nicholas Stifter, Edgar Weippl ( [ipfs](https://gateway.ipfs.io/ipfs/QmYhvMZXBPiVL12XDKzAQijPNkvRSMdJYDgwYgNVvzSVtr) )
+* A fully functional, economically viable, non-interactive DKG implementation that employs Ethereum's smart contract platform as a communication layer. [2019]
 
 
 # 🌐 Web3 Stack 
@@ -419,6 +427,10 @@ Here are the links to all major types of  [consensus algorithms](https://medium.
 
  [CBC Casper](https://github.com/cbc-casper/cbc-casper-paper/blob/master/cbc-casper-paper-draft.pdf)  by Vlad Zamfir, Nate Rush, Aditya Asgaonkar, Georgia Piliouras ( [ipfs](https://gateway.ipfs.io/ipfs/QmVyjCpoW3gTxhJmRUMuwgn7ZVBecHFawdgYVZas3XwCki) )
 * Describes a family of consensus protocols that are asynchronously safe and BFT. [2018]
+
+
+[Aleph](https://arxiv.org/pdf/1908.05156.pdf) by Adam Gagol, Damian Lesniak, Damian Straszak, Michal Swietek ( [ipfs](https://gateway.ipfs.io/ipfs/QmXBXxTJSabHoKLHc5CGfGw4PNT2qNZuhTSiwyXCVnciJW) )
+* Improves upon the state-of-the-art HoneyBadgerBFT by reducing the asymptotic latency while matching the optimal communication complexity, and replacing the trusted dealer with a trustless ABFT Randomness Beacon. [2019]
 
 ### Finality Gadgets
 
@@ -749,6 +761,10 @@ Here are the links to all major concepts in  [tokenomics](https://medium.com/@wm
 
  [Against Szabo’s Law, For A New Crypto Legal System](https://medium.com/@Vlad_Zamfir/against-szabos-law-for-a-new-crypto-legal-system-d00d0f3d3827)  by Vlad Zamfir ( [ipfs](https://gateway.ipfs.io/ipfs/QmTdjxb75ujAmJxg5cAZAqzTfx7t2UbfSMtDorBCF7SSar) )
 * Proposes the existence of three laws followed by all blockchain-based communities, and argues against the third. [2019]
+
+
+[Pause the Blockchain Legal Revolution](https://poseidon01.ssrn.com/delivery.php?ID=798074116064001078067095071002120011061088038065086068107119109011029005100093117105106042008122106100015022108117012020120085007083095016044090018079001082009086006051093045127119031008105118030004069102065116091068088088010127070088082029122076118093&EXT=pdf) by Kelvin F.K. LOW and Eliza MIK ( [ipfs](https://gateway.ipfs.io/ipfs/QmNuqpDvqrWwpRXNsJ5DYcjsoT8nLnm4SApWieU3igg4Yq) )
+* Critically evaluates the popular claims surrounding the potential of blockchain technologies to disrupt the legal system. [2019]
 
 # 🐞 Vulnerabilities, Bugs and Hacks
 ## Attack Vectors
