@@ -214,6 +214,11 @@ Explaining zk-STARKS  [Part I](https://vitalik.ca/general/2017/11/09/starks_part
 [PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive Arguments of Knowledge](https://eprint.iacr.org/2019/953.pdf) by Ariel Gabizon, Zachary J. Williamson, and Oana Ciobotaru ( [ipfs](https://gateway.ipfs.io/ipfs/QmRwNMgMkeAoMWAUipajunL55Vjz5mmQafcchFinSoi2oP) )
 * A universal SNARK construction with fully succinct verification, and significantly lower prover running time. [2019]
 
+
+[Halo: Recursive Proof Composition without a Trusted Setup](https://eprint.iacr.org/2019/1021.pdf) by Sean Bowe, Jack Grigg, and Daira Hopwood ( [ipfs](https://gateway.ipfs.io/ipfs/QmRZ3Hn8Nww6TY4WXFgZroo1zTGJZZHhppLPo5T1f1L69z) )
+* The first practical example of recursive proof composition without a trusted setup, using only ordinary cycles of elliptic curves. [2019]
+
+
 ## Privacy
 
 [RingCT 3.0 for Blockchain Conﬁdential Transaction: Shorter Size and Stronger Security](https://eprint.iacr.org/2019/508) by Tsz Hon Yuen, Shi-feng Sun, Joseph K. Liu, Man Ho Au, Muhammed F. Esgin, Qingzhao Zhang, and Dawu Gu ( [ipfs](https://gateway.ipfs.io/ipfs/QmS39PCEL4mmaNZhypa3uejKDjDR93ijFzgBgVisELZ8sU) )
@@ -306,6 +311,9 @@ Merkle Tree:  [Patent](http://pdfpiw.uspto.gov/.piw?Docid=04309569&PageNum=0)  a
 
 [ETHDKG: Distributed Key Generation with Ethereum Smart Contracts](https://eprint.iacr.org/2019/985.pdf) by Philipp Schindler, Aljosha Judmayer, Nicholas Stifter, Edgar Weippl ( [ipfs](https://gateway.ipfs.io/ipfs/QmYhvMZXBPiVL12XDKzAQijPNkvRSMdJYDgwYgNVvzSVtr) )
 * A fully functional, economically viable, non-interactive DKG implementation that employs Ethereum's smart contract platform as a communication layer. [2019]
+
+[Bootstrapping Consensus Without Trusted Setup: Fully Asynchronous Distributed Key Generation](https://eprint.iacr.org/2019/1015.pdf) by Eleftherios Kokoris-Kogias, Alexander Spiegelman, Dahlia Malkhi, and Ittai Abraham ( [ipfs](https://gateway.ipfs.io/ipfs/Qmf71tF3fVBkJtSsMjryudzkhYe3VPuSmNykzSi8Zzmuth) )
+* The first fully asynchronous distributed key generation algorithm, as well as the first distributed key generation algorithm that can create keys with a dual threshold necessary for scalable consensus. [2019]
 
 
 # 🌐 Web3 Stack 
@@ -568,6 +576,7 @@ Here are the links to all major types of  [consensus algorithms](https://medium.
 [A Composable Security Treatment of the Lightning Network](https://eprint.iacr.org/2019/778.pdf) by Aggelos Kiayias and Orfeas Stefanos Thyfronitis Litos ( [ipfs](https://gateway.ipfs.io/ipfs/QmbR6ooUec3vQDdm9mCfoRj2sc9dj8gurd2eXWKwxW92iM) )
 * A full formalization and security analysis of the Lightning Network that highlights its dependency on basic cryptographic primitives like digital signatures, pseudorandom functions, identity-based signatures and a combined digital signature. [2019]
 
+
 ### Sharding
 
  [Minimal VDF Randomness Beacon](https://ethresear.ch/t/minimal-vdf-randomness-beacon/3566)  by Justin Drake ( [ipfs](https://gateway.ipfs.io/ipfs/QmUR7RRTfzbxBg2v7wnry39Z7jRmrkJMDV9dN5fGptfeZo) )
@@ -733,6 +742,10 @@ Here are the links to all major concepts in  [tokenomics](https://medium.com/@wm
 
 [A Deep Dive into Bitcoin Mining Pools: An Empirical Analysis of Mining Shares](https://arxiv.org/abs/1905.05999) by Matteo Romiti, Aljosha Judmayer, Alexei Zamyatin, and Bernhard Haslhofer ( [ipfs](https://gateway.ipfs.io/ipfs/QmWiUMdXAppgNKEM8ptWPown4EZiFwLDtbzbbV6ZbQsU7J) )
 * This work shows that individual miners are simultaneously operating across three Bitcoin pools and that in each analyzed pool a small number of actors (≤ 20) receives over 50% of all BTC payouts. [2019]
+
+[The Yield Protocol: On-Chain Lending with Interest Rate Discovery](http://research.paradigm.xyz/Yield.pdf) by Dan Robinson ( [ipfs](https://gateway.ipfs.io/ipfs/QmTmzGTX1Vx1wvheqpDUjUXjjQmCUJmUArZQmaLzkub2r6) )
+* yTokens are a new building block for decentralized finance. By buying or selling yTokens, users can synthetically lend or borrow the target asset for a fixed term. [2019]
+
 
 ## Governance
  [Governance and Network Effects](https://blog.aragon.org/thoughts-on-governance-and-network-effects-f40fda3e3f98/)  by Luke Duncan and Aragon ( [ipfs](https://gateway.ipfs.io/ipfs/QmZQ3CFETMGsvjqR3jz6mNo6VKofoSZXDN1mGHcmbzUcyY) )
@@ -907,6 +920,11 @@ Nothing at Stake  [Part 1](https://medium.com/coinmonks/understanding-proof-of-s
 
 [Blockchain Mining Games with Pay Forward](https://arxiv.org/pdf/1905.07397.pdf) by Elias Koutsoupias, Philip Lazos, Paolo Serafino, and Foluso Ogunlana ( [ipfs](https://gateway.ipfs.io/ipfs/QmYiS3tR6XMTYsRn8dcVndQtKQ9vmXwHPpsYJxnSy4HmHM) )
 * Miners have the ability to pay forward an amount to be collected by the first miner who successfully extends their branch, giving them the power to influence the incentives for mining. This work formulates a stochastic game for the study of such incentives and shows that smaller miners can guarantee that the best response of even substantially more powerful miners is to follow the expected behavior intended by the protocol designer. [2019]
+
+
+[Hijacking Routes in Payment Channel Networks: A Predictability Tradeoff](https://arxiv.org/pdf/1909.06890.pdf) by Saar Tochner, Aviv Zohar, and Stefan Schmid ( [ipfs](https://gateway.ipfs.io/ipfs/QmRZ3Hn8Nww6TY4WXFgZroo1zTGJZZHhppLPo5T1f1L69z) )
+* This paper identifies and analyzes a novel Denial-of-Service attack based on route hijacking. [2019]
+
 
 ## Protocol Failures and Issues
 BTC: March 2013 Chain Fork  [Post-Mortem](https://github.com/bitcoin/bips/blob/master/bip-0050.mediawiki)  and  [Explainer](https://bitcoinmagazine.com/articles/bitcoin-network-shaken-by-blockchain-fork-1363144448/)  by Gavin Andersen and Vitalik Buterin, respectively ( [ipfs1](https://gateway.ipfs.io/ipfs/QmanbTWX4oiMuo4uqWmC4zBYHrnruGMqgH4scWe7gRx6oi) ,  [ipfs2](https://gateway.ipfs.io/ipfs/QmdyiH1wskrasPSMfMWpaMPrDMCh7Noz9FtXohL8qmhxCv) )
