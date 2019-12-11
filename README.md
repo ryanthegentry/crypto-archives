@@ -68,122 +68,122 @@ Thank you to our launch contributors that helped make this project possible!
 * Laid the groundwork for a private, digital payments system. [1982]
 
 
- [Hashcash](https://nakamotoinstitute.org/literature/hashcash/)  by Adam Back ( [ipfs](https://gateway.ipfs.io/ipfs/QmbBYug3fnewfQpbtRCghwG4eoeyX11sQA85TkKDgxE11v) )
+ [Hashcash](https://nakamotoinstitute.org/literature/hashcash/)  by Adam Back ( [Arweave](https://arweave.net/zRlQrhTaZi9jCfi299L0WbPyuUs9UB6HeXTwW25y0KE) )
 * Proposed the first proof-of-work (PoW) function for anti-DoS. [1997]
 
 
- [B-Money](http://www.weidai.com/bmoney.txt)  by Wei Dai ( [ipfs](https://gateway.ipfs.io/ipfs/Qmb1tnsutGuVL9KE6QvtoZTc7dhGik4GWQZGcKuh85JNXX) )
+ [B-Money](http://www.weidai.com/bmoney.txt)  by Wei Dai ( [Arweave](https://arweave.net/zHZjDQG6L-BMMjjvpPRJL3nhTjGZy7Z0Jwwy1bkIKLM) )
 * Proposed an anonymous, distributed electronic cash system using PoW. [1998]
 
 
- [Karma](https://www.cs.cornell.edu/people/egs/papers/karma.pdf)  by Vivek Vishnumurthy, Sangeeth Chandrakumar and Emin Gün Sirer ( [ipfs](https://gateway.ipfs.io/ipfs/QmWNZaXWTPJ26Z4gcVxF9jb7JywUi6Nd6JHrdp7DD8ZtWf) )
+ [Karma](https://www.cs.cornell.edu/people/egs/papers/karma.pdf)  by Vivek Vishnumurthy, Sangeeth Chandrakumar and Emin Gün Sirer ( [Arweave](https://jzxeryiscum5.arweave.net/hHXj2AyttGgNFstSSMF9d37HQ4mqZxDUzxDLTBShfL0) )
 * First cryptocurrency to use a distributed mint based on PoW. [2003]
 
 
- [Bit Gold](https://nakamotoinstitute.org/bit-gold/)  by Nick Szabo ( [ipfs](https://gateway.ipfs.io/ipfs/QmW9ZZM9Ay51yYqCstMnxAKpM86N9YHkynY1t8vqq7Yvvg) )
+ [Bit Gold](https://nakamotoinstitute.org/bit-gold/)  by Nick Szabo ( [Arweave](https://arweave.net/SP25Y5_XJgP4z3J1SGHq6VRnXZBp130XaFVVKzB6PUs) )
 * Describes a system for the decentralized creation of unforgeable proof of work chains [2005]
 
 
- [Bitcoin’s Academic Pedigree](https://queue.acm.org/detail.cfm?id=3136559)  by Arvind Narayanan and Jeremy Clark ( [ipfs](https://gateway.ipfs.io/ipfs/QmSjw5Z1MgV2c2h8YAGNAGmv5rChMek9xbQQfYEefSjyZ9) ) 
+ [Bitcoin’s Academic Pedigree](https://queue.acm.org/detail.cfm?id=3136559)  by Arvind Narayanan and Jeremy Clark ( [Arweave](https://arweave.net/Sg8MaPxPg5AJ7I4ff07MagETasIA8v69EAYbL741RrY) ) 
 * Excellent overview of the academic research upon which Bitcoin was built. [2017]
 
 ## Hashing Algorithms
 Here are the links to all major types of  [hashing algorithms](https://blockgeeks.com/guides/what-is-hashing/) :
 
- [SHA-256](http://www.iwar.org.uk/comsec/resources/cipher/sha256-384-512.pdf)  and  [Implementation](https://www.cs.princeton.edu/~appel/papers/verif-sha.pdf)  by Andrew Appel ( [ipfs](https://gateway.ipfs.io/ipfs/QmaFF34jiQUDNWN6HhnRFXun8k1tyEPmhb9FtGKu54tSTW)  and  [ipfs](https://gateway.ipfs.io/ipfs/QmVpbbdJucpT3XZXRdFQ2wRkKYAhPQuUCtXZpYUfEJPYaf) )
+[SHA-256](http://www.iwar.org.uk/comsec/resources/cipher/sha256-384-512.pdf) ( [Arweave](https://arweave.net/lInPu8l_YULRBMrrLPsLhS2XiIWtOx6SyvElkbawvLs) )  and  [Implementation](https://www.cs.princeton.edu/~appel/papers/verif-sha.pdf)  by Andrew Appel ( [Arweave](https://arweave.net/R1cFixuPniWxAFc4vUfyZDUJN38wu2r3jearpnLJe28) )
 * A one-way hashing function using 32-bit words. [2001]
 
 
- [Scrypt](https://www.tarsnap.com/scrypt/scrypt.pdf)  by Colin Percival ( [ipfs](https://gateway.ipfs.io/ipfs/QmfLQS9P7mb55J9STUNWZdUm9imH8M4Ko3gv8n91jaMCqw) )
+[Scrypt](https://www.tarsnap.com/scrypt/scrypt.pdf)  by Colin Percival ( [Arweave](https://arweave.net/d_9fF1iRLVzRagBiN3skveXDjZdoXuHRlqIqJ_yFHCQ) )
 * Introduced memory-hard hashing functions. [2009]
 
 
- [Blake2](https://blake2.net/)  by Jean-Philippe Aumasson, Samuel Neves, Zooko Wilcox-O’Hearn, and Christian Winnerlein ( [ipfs](https://gateway.ipfs.io/ipfs/QmeFsvh2pHJzsCVmWJWhUFC6DTgSSA2APozcTQzNFXtt2H) )
+[Blake2](https://blake2.net/)  by Jean-Philippe Aumasson, Samuel Neves, Zooko Wilcox-O’Hearn, and Christian Winnerlein ( [Arweave](https://arweave.net/6QwEgM3BMvP3cPpTuQb7lk6quF_TKQgoCBEHXgQUBTM) )
 * Provides security superior to SHA-2 and similar to that of SHA-3: immunity to length extension, indifferentiability from a random oracle, etc. [2012]
 
 
- [Keccak256](https://keccak.team/files/Keccak-implementation-3.2.pdf)  by Guido Bertoni, Joan Daemen, Michaël Peeters, Gilles Van Assche and Ronny Van Keer ( [ipfs](https://gateway.ipfs.io/ipfs/QmZsHn55Z5d9NW4byQs5nsRsPt4EaekJ8rBxeigkrTYQca) )
+[Keccak256](https://keccak.team/files/Keccak-implementation-3.2.pdf)  by Guido Bertoni, Joan Daemen, Michaël Peeters, Gilles Van Assche and Ronny Van Keer ( [Arweave](https://arweave.net/OOD0D9DU8lCJ8ANoICds9JPLxRIksUeHfOVbQmDIzss) )
 * Parent family of SHA-3 standards using the sponge construction, in which data is “absorbed” into the sponge, then the result is “squeezed” out. [2012]
 
 
- [CryptoNight](https://cryptonote.org/cns/cns008.txt)  by Nicolas van Saberhagen ( [ipfs](https://gateway.ipfs.io/ipfs/QmUs6jPUgWWNJZaEwAfuCk2fuNCP9MjCvryuUeFENBeADq) )
+[CryptoNight](https://cryptonote.org/cns/cns008.txt)  by Nicolas van Saberhagen ( [Arweave](https://arweave.net/F9lxvNzPAQR2p9lJDsja5ajaTRyo3L-ztvGO70IbQXE) )
 * Memory-hard hash function designed to be inefficiently computable on GPU, FPGA and ASIC architectures. [2013]
 
 
- [Dagger](http://www.hashcash.org/papers/dagger.html)  by Vitalik Buterin ( [ipfs](https://gateway.ipfs.io/ipfs/QmXkHRtSAz2m6wMXdTRbrnYVvVw4KmUMnUpvDtGzEmQGmL) )
+[Dagger](http://www.hashcash.org/papers/dagger.html)  by Vitalik Buterin ( [Arweave](https://arweave.net/ujbH1fchVmKQXBGkctEJAKJ_YtQdQcsbw8eRHpzjUG8) )
 * A memory-hard to compute, memory-hard to verify alternative to Scrypt. [2013]
 
 
- [Hashimoto](http://diyhpl.us/~bryan/papers2/bitcoin/meh/hashimoto.pdf)  by Thaddeus Dryja ( [ipfs](https://gateway.ipfs.io/ipfs/QmePkiUzASPH1rhTZMZr17RnqrEySh9UMUpAbhwk5vm3fw) )
+[Hashimoto](http://diyhpl.us/~bryan/papers2/bitcoin/meh/hashimoto.pdf)  by Thaddeus Dryja ( [Arweave](https://arweave.net/XzmnHav2VLwt1lUVDDHY4UKwlxkn6QvBHaU_GpEdFEM) )
 * Difficult to optimize via ASIC design due to being I/O bound, and difficult to outsource to nodes without the full data set. [2014]
 
 
- [Ethhash](https://github.com/ethereum/wiki/wiki/Ethash)  by Vitalik Buterin ( [ipfs](https://gateway.ipfs.io/ipfs/QmRiXDUg7WKAFzRiAoNxwR4WAAvDpA63RCLoG16u9Po4Nb) )
+[Ethhash](https://github.com/ethereum/wiki/wiki/Ethash) by Vitalik Buterin ( [Arweave](https://arweave.net/HgXV9e0AeNhCvwc1xLTWNsH4l-POkbPUJtDvt-Zk60I) )
 * A combination of the Dagger and Hashimoto algorithms used in Ethereum 1.0. [2014]
 
 
-[Cuckoo Cycle](https://github.com/tromp/cuckoo) by John Tromp ( [ipfs](https://gateway.ipfs.io/ipfs/QmbqbgLACTg6628d9KywC8UiUv1dMmGuiPYghrqdgHAi9E) )
+[Cuckoo Cycle](https://github.com/tromp/cuckoo) by John Tromp ( [Arweave](https://arweave.net/6MVmvD84pGmfTDqvh1RAZWcnvkElQzYCOjyoRDlkuME) )
 * Cuckoo Cycle is the first graph-theoretic proof-of-work, and the most memory bound. [2014]
 
 
- [X11](https://docs.dash.org/en/latest/introduction/features.html#x11-hash-algorithm)  by strophy, thephez, Dimitris Apostolou (ipfs)
+[X11](https://docs.dash.org/en/latest/introduction/features.html#x11-hash-algorithm)  by strophy, thephez, Dimitris Apostolou (ipfs)
 * Uses multiple rounds of 11 different hashes (Blake, bmw, groestl, jh, keccak, skein, luffa, cubehash, shavite, simd, echo). [2015]
 
 
- [ProgPoW](https://github.com/ifdefelse/ProgPOW)  by IfDefElse ( [ipfs](https://gateway.ipfs.io/ipfs/QmdqWegDt4bAsHaoSs8EdCpSYq9H2cgrHipm7kbxe84eBt) )
+[ProgPoW](https://github.com/ifdefelse/ProgPOW)  by IfDefElse ( [Arweave](https://arweave.net/tiNnLKTXXwCxR_o-Cvz9RszB5fx4OvDlbw47GPo4TzY) )
 * An Ethhash redesign minimizing the improvements available to ASICs by maximizing the usage of the featureset of a commodity GPU. [2018]
 
 
- [Pederson Hash Function](https://github.com/zcash/zcash/issues/2234#issuecomment-383736266)  by Daira Hopwood ( [ipfs](https://gateway.ipfs.io/ipfs/QmeedxSgPfDquov4KPBPYLMVX5JEKRY2FCHkZ86oN6Fo6Q) )
+[Pederson Hash Function](https://github.com/zcash/zcash/issues/2234#issuecomment-383736266)  by Daira Hopwood ( [Arweave](https://arweave.net/qGncNwwSirObn-oCAhloyejA43aGZi3MewVNwCdBWcM) )
 * Used in Zcash’s Sapling SNARK construction, reduces to discrete log. [2017]
 
 
 ## Zero-Knowledge Argument Systems
- [The Knowledge Complexity of Interactive Proof Systems](http://people.csail.mit.edu/silvio/Selected%20Scientific%20Papers/Proof%20Systems/The_Knowledge_Complexity_Of_Interactive_Proof_Systems.pdf)  by Shafi Goldwasser, Silvio Micali, Charles Rackoff ( [ipfs](https://gateway.ipfs.io/ipfs/QmZhkjD6VfcoQmQcqzTnEYWwRRTWWNT5w7RdEnWZ9nwa41) )
+[The Knowledge Complexity of Interactive Proof Systems](http://people.csail.mit.edu/silvio/Selected%20Scientific%20Papers/Proof%20Systems/The_Knowledge_Complexity_Of_Interactive_Proof_Systems.pdf)  by Shafi Goldwasser, Silvio Micali, Charles Rackoff ( [ipfs](https://gateway.ipfs.io/ipfs/QmZhkjD6VfcoQmQcqzTnEYWwRRTWWNT5w7RdEnWZ9nwa41) )
 * Introduced the IP hierarchy of interactive proof systems and gave the first zero-knowledge proof for a concrete problem. [1985]
 
 
- [Zerocash](http://zerocash-project.org/media/pdf/zerocash-extended-20140518.pdf)  by Eli Ben-Sasson, Alessandro Chiesa, Christina Garman, Matthew Green, Ian Miers, Eran Tromer, Madars Virza ( [ipfs](https://gateway.ipfs.io/ipfs/QmSQ6iAKnXXfJMAVsXQAUSenvZiuG5w6Dn9xGJ3wBAWytx) )
+[Zerocash](http://zerocash-project.org/media/pdf/zerocash-extended-20140518.pdf)  by Eli Ben-Sasson, Alessandro Chiesa, Christina Garman, Matthew Green, Ian Miers, Eran Tromer, Madars Virza ( [Arweave](https://arweave.net/wA-3PnGoWvaeFv7JYbLLd7j1gxI0Q8lm-SEjdnxNqIo) )
 * The specification for a private digital currency based on zk-SNARKS. [2014]
 
 
- [Fair-Zero Knowledge](https://people.csail.mit.edu/silvio/Selected%20Scientific%20Papers/Zero%20Knowledge/Fair_Zero_Knowkedge.pdf)  by Matt Lepinski, Silvio Micali, abhi shelat ( [ipfs](https://gateway.ipfs.io/ipfs/QmVJt8xLYY6hHN93xKN5MYu34Km1cdDT8CBN74h51ZJYXf) )
+[Fair-Zero Knowledge](https://people.csail.mit.edu/silvio/Selected%20Scientific%20Papers/Zero%20Knowledge/Fair_Zero_Knowkedge.pdf)  by Matt Lepinski, Silvio Micali, abhi shelat ( [Arweave](https://arweave.net/E5-ooctRtzEEsQH7hphJA22WSJks5s0jof0wwlGG1ZI) )
 * A multi-verifier ZK system where every proof is guaranteed to be “zero-knowledge for all verifiers.” [2015]
 
 
- [Succinct Non-Interactive Zero Knowledge for a von Neumann Architecture](https://eprint.iacr.org/2013/879.pdf)  by Eli Ben-Sasson, Alessandro Chiesa, Eran Tromer, Madars Virza ( [ipfs](https://gateway.ipfs.io/ipfs/QmPurvYEq1HX4CJvTT9FJ7jnZ1r8PL6pD5we8BdosQsRey) )
+[Succinct Non-Interactive Zero Knowledge for a von Neumann Architecture](https://eprint.iacr.org/2013/879.pdf)  by Eli Ben-Sasson, Alessandro Chiesa, Eran Tromer, Madars Virza ( [Arweave](https://arweave.net/7mSIOtYomwmZUVkBqAFUzwpsAlHQaug2X_S1LTyIqPc) )
 * zk-SNARK: a non-interactive zk-proof with a trusted setup, constant sized proofs and near constant verification time. [2015]
 
 
- [Zcash Protocol Specification](https://github.com/zcash/zips/blob/master/protocol/protocol.pdf)  by Daira Hopwood, Sean Bowe, Taylor Hornby, Nathan Wilcox ( [ipfs](https://gateway.ipfs.io/ipfs/QmVb21dtiJoyy2n1jmZSThyCZyKEN8oK1yodmPSPrrnE8T) )
+[Zcash Protocol Specification](https://github.com/zcash/zips/blob/master/protocol/protocol.pdf)  by Daira Hopwood, Sean Bowe, Taylor Hornby, Nathan Wilcox ( [Arweave](https://arweave.net/dj0MadYcoyX-d5lA1S_pu6N8woKuTpdcy30U3pVc0Nw) )
 * Implementation of the Zerocash specification. [2016]
 
 
- [Doubly Efficient zk-SNARKs without Trusted Setup](https://eprint.iacr.org/2017/1132.pdf)  by Riad S. Wahby, Ionna Tzialla, abhi shelat, Justin Thaler, Michael Walfish ( [ipfs](https://gateway.ipfs.io/ipfs/QmXUWY7sW3z3JucuevpvxvMxaY9CXXYKg9iRbHHcaFTyRk) )
+[Doubly Efficient zk-SNARKs without Trusted Setup](https://eprint.iacr.org/2017/1132.pdf)  by Riad S. Wahby, Ionna Tzialla, abhi shelat, Justin Thaler, Michael Walfish ( [Arweave](https://arweave.net/1ggByDfVZnofNE3hs_7e1NtVKNiSRVK6SYoceqgEK-U) )
 * Hyrax: a non-interactive zk-proof without a trusted setup where proof size is small, and proof generation time grows sublinearly, as does verification time. [2017]
 
 
- [Lightweight Sublinear Arguments Without a Trusted Setup](https://acmccs.github.io/papers/p2087-amesA.pdf)  by Scott Ames, Carmit Hazay, Yuval Ishai, Muthuramakrishnan Venkitasubramaniam ( [ipfs](http://qmsnkpdkccp8wwsrrvasf1f6gl5lujlr5w6bj3sev4cgbw/) )
+[Lightweight Sublinear Arguments Without a Trusted Setup](https://acmccs.github.io/papers/p2087-amesA.pdf)  by Scott Ames, Carmit Hazay, Yuval Ishai, Muthuramakrishnan Venkitasubramaniam ( [Arweave](https://arweave.net/IMRX1V-tpl3t7NinjPVdY7oK9dpZOu225OnbVDyKRxQ) )
 * Ligero: a non-interactive zk-proof without a trusted setup. [2017]
 
 
- [Post-Quantum Zero-Knowledge and Signatures from Symmetric-Key Primitives](https://eprint.iacr.org/2017/279.pdf)  by Melissa Chase, David Derler, Steven Goldfeder, Claudio Orlandi, Sebastian Ramacher, Christian Rechberger, Daniel Slamanig, Greg Zaverucha (ipfs)
+[Post-Quantum Zero-Knowledge and Signatures from Symmetric-Key Primitives](https://eprint.iacr.org/2017/279.pdf)  by Melissa Chase, David Derler, Steven Goldfeder, Claudio Orlandi, Sebastian Ramacher, Christian Rechberger, Daniel Slamanig, Greg Zaverucha ([Arweave](https://arweave.net/MZqYwZQ9KDNXVf5NHVLj0PsfsfW91rGlrXJPOe9br7k))
 * ZKB++ design. [2017]
 
 
- [Bulletproofs](https://eprint.iacr.org/2017/1066.pdf)  by Benedikt Bu ̈nz, Jonathan Bootle, Dan Boneh, Andrew Poelstra, Pieter Wuille, and Greg Maxwell ( [ipfs](https://gateway.ipfs.io/ipfs/QmcPHJztetvMkCEzakCx4Ssd2jSbx6uBtoYVPyKynA42aQ) )
+[Bulletproofs](https://eprint.iacr.org/2017/1066.pdf)  by Benedikt Bu ̈nz, Jonathan Bootle, Dan Boneh, Andrew Poelstra, Pieter Wuille, and Greg Maxwell ( [Arweave](https://arweave.net/IWvttNQByLIiD4V857c3C9HFnyp06kyjDwM1et1fGoE) )
 * Bulletproof: a non-interactive zk-proof without a trusted setup where proof size grows logarithmically, proof generation time grows linearly, as does verification time. [2017]
 
 
- [Scalable, Transparent, and Post-Quantum Secure Computational Integrity](https://eprint.iacr.org/2018/046.pdf)  by Eli Ben-Sasson, Iddo Bentov, Yinon Horesh, Michael Riabzev ( [ipfs](https://gateway.ipfs.io/ipfs/QmVjnxu2uxVW1iC4LD59vo82QR8XT9HHPxTNKLaiVJo3KY) )
+[Scalable, Transparent, and Post-Quantum Secure Computational Integrity](https://eprint.iacr.org/2018/046.pdf) by Eli Ben-Sasson, Iddo Bentov, Yinon Horesh, Michael Riabzev ( [Arweave](https://arweave.net/FOCJaqZk3M5SdKj6g10ZXaKgyzsj_ToSHM1n6uEXT7g) )
 * zk-STARK: a non-interactive zk-proof without a trusted setup where proof size is large, but proof generation time grows sublinearly, as does verification time. [2018]
 
 
-Explaining zk-STARKS  [Part I](https://vitalik.ca/general/2017/11/09/starks_part_1.html) ,  [Part II](https://vitalik.ca/general/2017/11/22/starks_part_2.html) , and  [Part III](https://vitalik.ca/general/2018/07/21/starks_part_3.html)  by Vitalik Buterin ( [ipfs1](https://gateway.ipfs.io/ipfs/QmZ4Afbcsn3mAzvsHbTn2nvueDnX4PFJUmyP9HH6y3dxPn) ,  [ipfs2](https://gateway.ipfs.io/ipfs/Qmd1fpGoQS5AZy9LG369sSiC7HanDGWRmQYMdvGt42zNbs) ,  [ipfs3](http://qmx7bkbgattl87uvtkug5zqsdvc8rzid8hojag7mzttdot/) )
+Explaining zk-STARKS  [Part I](https://vitalik.ca/general/2017/11/09/starks_part_1.html) ,  [Part II](https://vitalik.ca/general/2017/11/22/starks_part_2.html) , and  [Part III](https://vitalik.ca/general/2018/07/21/starks_part_3.html)  by Vitalik Buterin ( [Arweave1](https://arweave.net/jTJzH8Fa8Lw1FBPusErmsmIdYQk1LXsb4ljC-uCeGI4) ,  [Arweave2](https://arweave.net/z-vVUSwGaXWso1IgvMd_XwbA1LdtwOQgi8pyBTUxzCk) ,  [Arweave3](https://arweave.net/e3aG43-1LH_5GGEMURNtBDpmQv1qKcmYiVHCa_6DqrY) )
 * Three part explanation for how zk-STARKs work. [2018]
 
 
- [Aurora: Transparent Succinct Arguments for R1CS](https://eprint.iacr.org/2018/828.pdf)  By Eli Ben-Sasson, Alessandro Chiesa, Michael Riabzev, Nicholas Spooner, Madars Virza, Nicholas P. Ward ( [ipfs](https://gateway.ipfs.io/ipfs/QmYTBpVu156KNRWWb1ppMF8yJxMwNvRBVFJoqCDfvqSLKX) )
+[Aurora: Transparent Succinct Arguments for R1CS](https://eprint.iacr.org/2018/828.pdf)  By Eli Ben-Sasson, Alessandro Chiesa, Michael Riabzev, Nicholas Spooner, Madars Virza, Nicholas P. Ward ( [ipfs](https://gateway.ipfs.io/ipfs/QmYTBpVu156KNRWWb1ppMF8yJxMwNvRBVFJoqCDfvqSLKX) )
 * zk-STARK improvement where proof size is O(log2n), proof generation time is O(n log(n)), and verification time is O(n). [2018]
 
 
@@ -229,11 +229,11 @@ Explaining zk-STARKS  [Part I](https://vitalik.ca/general/2017/11/09/starks_part
 * This work proposes the use of ring signatures to solve the problem of authenticating registered members of the blockchain during key update to ensure that only registered members can perform key updates and presents a revocation mechanism that involves key deletion from the blockchain for PB-PKI. [2019]
 
 ## Proofs of Space, Time & Replication
- [Proofs of Space](https://eprint.iacr.org/2017/893.pdf)  by Hamza Abusalah, Joel Alwen, Bram Cohen, Danylo Khilko, Krzysztof Pietrzak, Leonid Reyzin ( [ipfs](https://gateway.ipfs.io/ipfs/QmNxX8QutzqTgNhvaZ8pHFaeJVUbXKwMMAY2R5Ur9vBpdG) )
+[Proofs of Space](https://eprint.iacr.org/2017/893.pdf)  by Hamza Abusalah, Joel Alwen, Bram Cohen, Danylo Khilko, Krzysztof Pietrzak, Leonid Reyzin ( [ipfs](https://gateway.ipfs.io/ipfs/QmNxX8QutzqTgNhvaZ8pHFaeJVUbXKwMMAY2R5Ur9vBpdG) )
 * Describes an alternative to Proof of Work where a service requester must dedicate a significant amount of disk space as opposed to computation. [2013]
 
 
- [Proofs of Unique Blockchain Storage](https://bitslog.wordpress.com/2014/11/03/proof-of-local-blockchain-storage/)  by Sergio Demian Lerner ( [ipfs](https://gateway.ipfs.io/ipfs/QmZ6bYQZ12t1UCmcyr9NwxYy1U3vyJhzJcDHpbhaiFNYH4) )
+[Proofs of Unique Blockchain Storage](https://bitslog.wordpress.com/2014/11/03/proof-of-local-blockchain-storage/)  by Sergio Demian Lerner ( [Arweave](https://arweave.net/0YwHsAYwF75vkvACi4p7kuA98__fPsAs_7RWhmgUMMY) )
 * Describes a construction that lets a node verify that a remote node has a unique copy of a data file over the Internet. [2014]
 
 
@@ -245,15 +245,15 @@ Explaining zk-STARKS  [Part I](https://vitalik.ca/general/2017/11/09/starks_part
 * Describes an improvement to Proofs of Storage that enables a verifier to check that a prover is not deduplicating multiple copies of data in the same storage space. [2017]
 
 
- [Verifiable Delay Functions](https://eprint.iacr.org/2018/601.pdf)  by Dan Boneh, Joseph Bonneau, Benedikt Bunz, Ben Fisch ( [ipfs](https://gateway.ipfs.io/ipfs/QmSzqbRB4yvTsjBYoaFu82gRAP6NLwL979YmX4MXN4deij) )
+[Verifiable Delay Functions](https://eprint.iacr.org/2018/601.pdf)  by Dan Boneh, Joseph Bonneau, Benedikt Bunz, Ben Fisch ( [ipfs](https://gateway.ipfs.io/ipfs/QmSzqbRB4yvTsjBYoaFu82gRAP6NLwL979YmX4MXN4deij) )
 * Describes the requirements for functions that require a specified number of sequential steps to evaluate, yet produces a unique output that can be efficiently and publicly verified. [2018]
 
 
- [A Survey of Two Verifiable Delay Functions](https://eprint.iacr.org/2018/712.pdf)  by Dan Boneh, Benedikt Bunz, Ben Fisch ( [ipfs](https://gateway.ipfs.io/ipfs/QmXSzAjeYEuygVSA36T2wtw3CP2mWGei7q3hppPW2A2tJK) )
+[A Survey of Two Verifiable Delay Functions](https://eprint.iacr.org/2018/712.pdf)  by Dan Boneh, Benedikt Bunz, Ben Fisch ( [ipfs](https://gateway.ipfs.io/ipfs/QmXSzAjeYEuygVSA36T2wtw3CP2mWGei7q3hppPW2A2tJK) )
 * A comparison of VDF constructions from Pietrzak and Wesolowski. [2018]
 
 
- [Minimal VDF Randomness Beacon](https://ethresear.ch/t/minimal-vdf-randomness-beacon/3566)  by Justin Drake ( [ipfs](https://gateway.ipfs.io/ipfs/QmXfjyxboD58cN3C6y1hMG2FYtL3kk92XSvEAYtSFnGG5d) )
+[Minimal VDF Randomness Beacon](https://ethresear.ch/t/minimal-vdf-randomness-beacon/3566)  by Justin Drake ( [Arweave](https://arweave.net/71nGXoBR-PZoKF8agIPr7zg0ZiS50vQ2KXMeZbdcujE) )
 * A proposal to use a VDF on Ethereum 2.0 as a source of randomness. [2018]
 
 
@@ -261,11 +261,11 @@ Explaining zk-STARKS  [Part I](https://vitalik.ca/general/2017/11/09/starks_part
 * Provides an initial security analysis of Chia's alternating proofs of space and verifiable delay functions: as long as at least ~61.5% of the space is controlled by honest parties, Chia satisfies basic blockchain security properties. [2019]
 
 ## Other
-Merkle Tree:  [Patent](http://pdfpiw.uspto.gov/.piw?Docid=04309569&PageNum=0)  and  [Paper](https://link.springer.com/content/pdf/10.1007%2F3-540-48184-2_32.pdf)  and  [in Ethereum](https://blog.ethereum.org/2015/11/15/merkling-in-ethereum/)  by Ralph C. Merkle and Vitalik Buterin, respectively ( [ipfs1](https://gateway.ipfs.io/ipfs/QmSxtmZKzpombtWiW3irtj9SoHWBfWpbg4WmGUjQxAX8xN) ,  [ipfs2](https://gateway.ipfs.io/ipfs/QmVrpyKJcj1SL7Dxe1mprjx4KuVsPGhR6paFTvW5KbXHx8) ,  [ipfs3](https://gateway.ipfs.io/ipfs/Qmbztf7iYjAU8Bw1HQUw18g3wT3uCFotsGU7AnsYh1cC9d) )
+Merkle Tree:  [Patent](http://pdfpiw.uspto.gov/.piw?Docid=04309569&PageNum=0)  and  [Paper](https://link.springer.com/content/pdf/10.1007%2F3-540-48184-2_32.pdf)  and  [in Ethereum](https://blog.ethereum.org/2015/11/15/merkling-in-ethereum/)  by Ralph C. Merkle and Vitalik Buterin, respectively ( [ipfs1](https://gateway.ipfs.io/ipfs/QmSxtmZKzpombtWiW3irtj9SoHWBfWpbg4WmGUjQxAX8xN) ,  [ipfs2](https://gateway.ipfs.io/ipfs/QmVrpyKJcj1SL7Dxe1mprjx4KuVsPGhR6paFTvW5KbXHx8) ,  [Arweave3](https://arweave.net/6Rd9Yw5qxxY_lnDPpBwobZGnOMeSzt4BjRoKZL6U2RA) )
 * A fundamental data structure that allows for authenticating a small amount of data, like a hash, to be extended to also authenticate large databases of potentially unbounded size. (1982, 1988, 2015)
 
 
- [Why I Wrote PGP](https://www.philzimmermann.com/EN/essays/WhyIWrotePGP.html)  by Phil Zimmerman ( [ipfs](https://gateway.ipfs.io/ipfs/QmdjrnxU6vmG3jgqVmbi2BuUyKnLvVXro3qHKwnk79ipbd) )
+ [Why I Wrote PGP](https://www.philzimmermann.com/EN/essays/WhyIWrotePGP.html)  by Phil Zimmerman ( [Arweave](https://arweave.net/jbRW6amAG32rb6Mk1YD3Z84bUvu8LL3Gpvay8hCvXHk) )
 * A short history of cryptography enabling digital privacy in the 1990s. [1991]
 
 
@@ -305,7 +305,7 @@ Merkle Tree:  [Patent](http://pdfpiw.uspto.gov/.piw?Docid=04309569&PageNum=0)  a
 * An alternative to ECDSA that would allow for signature aggregation in Bitcoin. [2018]
 
 
- [Parity Substrate](https://medium.com/paritytech/substrate-in-a-nutshell-a54cd34c7863)  by Dmitriy Kashitsyn ( [ipfs](https://gateway.ipfs.io/ipfs/QmUJb6GcW8damCJ8T1fZzrJsjHvhsHy8nt8mnoViAWTT24) )
+ [Parity Substrate](https://medium.com/paritytech/substrate-in-a-nutshell-a54cd34c7863)  by Dmitriy Kashitsyn ( [Arweave](https://arweave.net/DSbsL9_9SK0bRtgJ_kfFmsnD4uriCJVB93c6CXtfprc) )
 * Describing a library designed to help users build their own blockchain. [2018]
 
 
